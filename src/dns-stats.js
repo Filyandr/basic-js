@@ -23,9 +23,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getDNSStats(arr) {
-  // мне нужно сделать из массива, подмассивы, разделитель каждого подмассива является точкой.
-  // потом мне нужно посчитать, сколько раз подмассив встречается в массиве
-  // вывести подмассив: количество
+  throw new NotImplementedError('Not implemented');
+  // remove line with error and write your code here
 }
 
 module.exports = {
